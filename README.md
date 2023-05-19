@@ -1,6 +1,6 @@
 # [Minecraft](https://www.minecraft.net/en-us) Server Tunnel with [ngrok](https://ngrok.com) and [No-IP](https://www.noip.com) v2
 
-This script allows you to create a free tcp tunnel for your Minecraft server using ngrok and update a free dynamic DNS of No-IP with the tunnel's ip address.
+This python script allows you to create a free tcp tunnel for your Minecraft Server using ngrok and update a free dynamic DNS of No-IP with the tunnel's ip address.
 It simplifies the process of making your Minecraft server accessible to your friends by automatically setting up the ngrok tunnel and updating the No-IP dynamic DNS with the tunnel's address.
 
 ## Prerequisites
