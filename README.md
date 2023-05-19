@@ -1,6 +1,6 @@
 # Minecraft Server Tunnel with ngrok and No-IP v2
 
-This script allows you to create a tcp tunnel for your Minecraft server using ngrok and update a dynamic DNS of No-Ip with the tunnel's ip address.
+This script allows you to create a tcp tunnel for your Minecraft server using ngrok and update a dynamic DNS of No-IP with the tunnel's ip address.
 It simplifies the process of making your Minecraft server accessible to your friends by automatically setting up the ngrok tunnel and updating the No-IP dynamic DNS with the tunnel's address.
 
 ## Prerequisites
