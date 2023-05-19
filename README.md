@@ -12,14 +12,14 @@ Before running the script, ensure that you have the following:
 - [Download Minecraft Server 1.19.2](https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar)
 - [Minecraft](https://www.minecraft.net/en-us) Server running on a specified port -> [more information](https://www.minecraft.net/en-us/download/server)
 - [ngrok](https://ngrok.com) executable added to the system's path
-- [No-IP](https://www.noip.com) account with a registered domain
+- [No-IP](https://www.noip.com) account with a set up free dynamic DNS hostname to a ipv4 type A
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/Rosty64/Minecraft-Server-Tunnel/releases) page.
+1. Clone or download this repository to your local machine.
 2. Extract the contents of the zip file to a directory of your choice.
-3. Run the `install_java_notepad++_python.bat` file.
-4. Install the required Python packages by running `pip install -r requirements.txt`.
+4. Run the `install_java_notepad++_python.bat` file.
+5. Install the required Python packages by running `pip install -r requirements.txt` in your console.
 
 ## Configuration
 
