@@ -16,7 +16,7 @@ Before running the script, ensure that you have the following:
 
 ## Installation
 
-1. Download the latest release zip file from the [Releases](https://github.com/Rosty64/Minecraft-Server-Tunnel/releases) page.
+1. Download the latest release from the [Releases](https://github.com/Rosty64/Minecraft-Server-Tunnel/releases) page.
 2. Extract the contents of the zip file to a directory of your choice.
 3. Run the `install_java_notepad++_python.bat` file.
 4. Install the required Python packages by running `pip install -r requirements.txt`.
