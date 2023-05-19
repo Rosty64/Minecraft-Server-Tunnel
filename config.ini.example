@@ -1,0 +1,13 @@
+[Minecraft]
+; Specify the port of your Minecraft server
+Port = 25565
+
+[Ngrok]
+; Add your ngrok authtoken below
+AuthToken = YOUR_TOKEN
+
+[NoIP]
+; Add your No-IP account details below
+Username = YOUR_NOIP_USERNAME
+Password = YOUR_NOIP_PASSWORD
+Domain = YOUR_NOIP_DOMAIN
