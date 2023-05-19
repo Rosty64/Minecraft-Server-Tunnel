@@ -11,7 +11,7 @@ Before running the script, ensure that you have the following:
 - Python 3.10.6 installed
 - Latest Java Runtime Environment installed
 - [Download Minecraft Server 1.19.2](https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar)
-- [Minecraft](https://www.minecraft.net/en-us) Server running on a specified port -> [more information](https://www.minecraft.net/en-us/download/server)
+- [Minecraft Server](https://www.minecraft.net/en-us/download/server) running on a specified port
 - An [ngrok](https://ngrok.com) account and an authtoken
 - [ngrok](https://ngrok.com) executable added to the system's path
 - [No-IP](https://www.noip.com) account with a set up free dynamic DNS hostname to a ipv4 type A
