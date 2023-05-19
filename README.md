@@ -35,11 +35,12 @@ The script uses a configuration file named `config.ini` to store sensitive infor
 
 ## Usage
 
-1. Run the `start_server.bat`.
+1. Run the `start_server.bat` file.
 2. The Minecraft Server will start, make sure you have set it up right.
-3. The script will start ngrok, create a secure tunnel for your Minecraft server, and update the corresponding No-IP domain with the tunnel address.
-4. The Server Address will be displayed, copied to your clipboard, and you can share the link with your friends to connect to your Minecraft server.
-5. Have fun playing together!
+3. The script will start ngrok, create a secure tunnel for your Minecraft server, and update the corresponding No-IP dynamic DNS with the tunnel address.
+4. The Server Address will be displayed and copied to your clipboard
+5. Now you can share the link with your friends so they can connect to your Minecraft Server.
+6. Have fun playing together!
 
 ## License
 
