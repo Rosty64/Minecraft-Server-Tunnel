@@ -30,7 +30,7 @@ Before running the script, ensure that you have the following:
 
 ## Configuration
 
-The script uses a configuration file named `config.ini` to store sensitive information. Open the `config.ini` file and replace the placeholder values with your ngrok auth token, No-IP account details, and Minecraft server port.
+The script uses a configuration file named `config.ini` to store sensitive information. Open the `config.ini.example` file and replace the placeholder values with your ngrok auth token, No-IP account details, and Minecraft server port.
 
 ## License
 
