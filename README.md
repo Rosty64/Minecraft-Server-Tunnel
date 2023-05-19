@@ -28,7 +28,7 @@ Before running the script, ensure that you have the following:
 The script uses a configuration file named `config.ini` to store sensitive information.
 
 1. Open the `config.ini.example` file in a text editor.
-2. Replace the placeholder values with your ngrok auth token, No-IP account details, and Minecraft server port.
+2. Replace the placeholder values with your ngrok authtoken, No-IP account details, and Minecraft server port.
 5. Save the file as `config.ini`.
 6. Open the `start_server.bat` file in a text editor.
 7. Replace "C:\Path\to\minecraft_server_directory" with the actual path to your Minecraft server directory (where server.jar is located).
