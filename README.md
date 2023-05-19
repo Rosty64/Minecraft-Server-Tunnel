@@ -7,30 +7,38 @@ It simplifies the process of making your Minecraft server accessible to your fri
 
 Before running the script, ensure that you have the following:
 
-- Operating System: Ensure that your system is running Windows 10.
-- Minecraft Server running on the specified port (default: 25565)
-- Latest Java Version: Make sure you have the latest version of Java installed on your system.
-- Python 3.10.6: Make sure you have Python 3.10.6 installed on your system.
-	- Run the `install_java_notepad++_python.bat` to install or update notepad++, java and python 
-- `ngrok` executable added to the system's path
-- An ngrok account and an authtoken
-- A No-IP account with a registered domain
+- Operating System: Windows 10
+- Latest Java Runtime Environment installed
+- Minecraft Server running on the specified port
+- Ngrok executable added to the system's path
+- No-IP account with a registered domain
 
-## Getting Started
+## Installation
 
-1. Clone or download the repository to your local machine.
-2. Install the required Python packages by running `pip install -r requirements.txt`.
-3. Create a configuration file named `config.ini` based on the provided `config.ini.example` file and fill in the required information (ngrok authtoken, No-IP account details).
-	- Edit with notepad++ and save as `config.ini`.
-4. Run the script using the command `python minecraft_server_tunnel.py`.
-	- Edit the `start_server.bat` with notepad++ to update the directory paths
-	- Replace "C:\Path\to\minecraft_server_directory" with the actual path to your Minecraft server directory (where server.jar is located).
-	- Replace "C:\Path\to\minecraft_tunnel_script_directory" with the actual path to your minecraft_server_tunnel.py script directory.
-	- Save and Run: Save the .bat file and double-click to run it. This will start the Minecraft server and the minecraft_server_tunnel.py script in separate Command Prompt windows.
+1. Download the latest release zip file from the [Releases](https://github.com/Rosty64/Minecraft-Server-Tunnel/releases) page.
+2. Extract the contents of the zip file to a directory of your choice.
+3. Run the `install_java_notepad++_python.bat` file.
+4. Install the required Python packages by running `pip install -r requirements.txt`.
 
 ## Configuration
 
-The script uses a configuration file named `config.ini` to store sensitive information. Open the `config.ini.example` file and replace the placeholder values with your ngrok auth token, No-IP account details, and Minecraft server port. Then save the file as `config.ini`.
+The script uses a configuration file named `config.ini` to store sensitive information.
+
+1. Open the `config.ini.example` file in a text editor.
+2. Replace the placeholder values with your ngrok auth token, No-IP account details, and Minecraft server port.
+5. Save the file as `config.ini`.
+6. Open the `start_server.bat` file in a text editor.
+7. Replace "C:\Path\to\minecraft_server_directory" with the actual path to your Minecraft server directory (where server.jar is located).
+8. Replace "C:\Path\to\minecraft_tunnel_script_directory" with the actual path to your minecraft_server_tunnel.py script directory.
+9. Save the file `start_server.bat`.
+
+## Usage
+
+1. Run the `start_server.bat`.
+2. The Minecraft Server will start, make sure you have set it up right.
+3. The script will start ngrok, create a secure tunnel for your Minecraft server, and update the corresponding No-IP domain with the tunnel address.
+4. The Server Address will be displayed, copied to your clipboard, and you can share the link with your friends to connect to your Minecraft server.
+5. Have fun playing together!
 
 ## License
 
