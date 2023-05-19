@@ -9,7 +9,8 @@ Before running the script, ensure that you have the following:
 
 - Operating System: Windows 10
 - Latest Java Runtime Environment installed
-- [Minecraft](https://www.minecraft.net/en-us) Server running on the specified port [Download Server](https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jarO) [More information](https://www.minecraft.net/en-us/download/server)
+- [Minecraft](https://www.minecraft.net/en-us) Server running on the specified port -> [More information](https://www.minecraft.net/en-us/download/server)
+- <a href="https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar)" download style="padding: 10px 20px; background-color: #4CAF50; color: white; font-size: 18px; text-decoration: none; border-radius: 4px;">Download Minecraft Server</a>
 - [ngrok](https://ngrok.com) executable added to the system's path
 - [No-IP](https://www.noip.com) account with a registered domain
 
