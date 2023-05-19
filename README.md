@@ -10,7 +10,7 @@ Before running the script, ensure that you have the following:
 - Operating System: Windows 10
 - Latest Java Runtime Environment installed
 - [Download Minecraft Server 1.19.2](https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar)
-- [Minecraft](https://www.minecraft.net/en-us) Server running on a specified port -> [More information](https://www.minecraft.net/en-us/download/server)
+- [Minecraft](https://www.minecraft.net/en-us) Server running on a specified port -> [more information](https://www.minecraft.net/en-us/download/server)
 - [ngrok](https://ngrok.com) executable added to the system's path
 - [No-IP](https://www.noip.com) account with a registered domain
 
