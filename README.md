@@ -44,6 +44,8 @@ The script uses a configuration file named `config.ini` to store sensitive infor
 5. Now you can share the link with your friends so they can connect to your Minecraft Server.
 6. Have fun playing together!
 
+Note: Make sure to complete all steps mentioned in the "Shutdown and Exit Procedure" section before running the `start_server.bat` again.
+
 Shutdown and Exit Procedure:
 1. Write "stop" (without the quotes) in the console of the running Minecraft Server and press Enter to shutdown the server.
 2. Wait until the server has completely finished shutting down.
@@ -51,6 +53,8 @@ Shutdown and Exit Procedure:
 4. Press Enter in the console of the running ngrok tcp tunnel to stop the tunnel.
 5. Wait until the tunnel has stopped successfully.
 6. Write "exit" (without the quotes) and press Enter to to close the console.
+
+Note: After following the "Shutdown and Exit Procedure", you can safely run the `start_server.bat` again.
 
 ## License
 
