@@ -8,9 +8,11 @@ It simplifies the process of making your Minecraft server accessible to your fri
 Before running the script, ensure that you have the following:
 
 - Operating System: Windows 10
+- Python 3.10.6 installed
 - Latest Java Runtime Environment installed
 - [Download Minecraft Server 1.19.2](https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar)
 - [Minecraft](https://www.minecraft.net/en-us) Server running on a specified port -> [more information](https://www.minecraft.net/en-us/download/server)
+- An [ngrok](https://ngrok.com) account and an authtoken
 - [ngrok](https://ngrok.com) executable added to the system's path
 - [No-IP](https://www.noip.com) account with a set up free dynamic DNS hostname to a ipv4 type A
 
@@ -18,7 +20,7 @@ Before running the script, ensure that you have the following:
 
 1. Clone or download this repository to your local machine.
 2. Extract the contents of the zip file to a directory of your choice.
-4. Run the `install_java_notepad++_python.bat` file.
+4. Run the `install_java_notepad++_python.bat` file, only if you don't have installed it already.
 5. Install the required Python packages by running `pip install -r requirements.txt` in your console.
 
 ## Configuration
