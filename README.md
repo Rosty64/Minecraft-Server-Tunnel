@@ -33,7 +33,7 @@ The script uses a configuration file named `config.ini` to store sensitive infor
 6. Open the `start_server.bat` file in a text editor.
 7. Replace "C:\Path\to\minecraft_server_directory" with the actual path to your Minecraft server directory (where server.jar is located).
 8. Replace "C:\Path\to\minecraft_tunnel_script_directory" with the actual path to your minecraft_server_tunnel.py script directory.
-9. Save the file `start_server.bat`.
+9. Save the `start_server.bat` file.
 
 ## Usage
 
