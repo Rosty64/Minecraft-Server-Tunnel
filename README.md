@@ -45,12 +45,12 @@ The script uses a configuration file named `config.ini` to store sensitive infor
 6. Have fun playing together!
 
 Shutdown and Exit Procedure:
-1. Write "stop" (without the "") in the console of the running Minecraft Server and press enter to shutdown the server.
-2. Wait until it completely finished shutting down.
-3. Write "exit" (without the "") and press enter to close the console.
-4. Press enter in the console of the running ngrok tcp tunnel to stop the tunnel.
-5. Wait until it stopped successfully.
-6. Write "exit" (without the "") and press enter to to close the console.
+1. Write "stop" (without the quotes) in the console of the running Minecraft Server and press Enter to shutdown the server.
+2. Wait until the server has completely finished shutting down.
+3. Write "exit" (without the quotes) and press Enter to close the console.
+4. Press Enter in the console of the running ngrok tcp tunnel to stop the tunnel.
+5. Wait until the tunnel has stopped successfully.
+6. Write "exit" (without the quotes) and press Enter to to close the console.
 
 ## License
 
